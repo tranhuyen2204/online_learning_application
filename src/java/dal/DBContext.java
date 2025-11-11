@@ -21,12 +21,6 @@ public class DBContext {
     public DBContext() {
     }
 
-    /**
-     * get an connection
-     *
-     * @return connection or null
-     * @throws ClassNotFoundException
-     */
     public Connection getConnection() {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
